@@ -11,3 +11,7 @@ APIs supported                    endpoints
 8. CreatebookingForACar            /booking
 9. UpdateBookingByID               /booking/id
 10. DeleteBooking                   /booking/id
+
+APIs are hosted on Aws EC2 instnace. Following are the endpoints.
+http://ec2-3-17-156-213.us-east-2.compute.amazonaws.com:4000/booking
+http://ec2-3-17-156-213.us-east-2.compute.amazonaws.com:4000/car
