@@ -39,7 +39,7 @@ const routes = (app) => {
 
     app.route('/booking')
         .get(getBookings)
-        .post(bookCarByVehicleNum);
+        .post(addNewBooking);
     
     app.route('/booking/:bookingId')
         .get(getBookingsByNum)
